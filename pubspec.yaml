@@ -1,0 +1,31 @@
+name: i_am_rad
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_launcher_icons: ^0.7.2
+
+flutter_icons:
+  image_path: images/rad.png
+  android: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Marker
+      fonts:
+        - asset: fonts/PermanentMarker-Regular.ttf
